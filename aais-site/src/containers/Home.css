@@ -1,0 +1,19 @@
+html { 
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/robonaut.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+.Home-title {
+    font-size: 1.5em;
+    color: white;
+}
+  
+.Home-intro {
+    font-size: large;
+    color: white;
+}
