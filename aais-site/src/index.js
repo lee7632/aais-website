@@ -8,6 +8,7 @@ import './index.css';
 import Home from './containers/Home';
 import registerServiceWorker from './registerServiceWorker';
 import * as firebase from 'firebase';
+import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 
 var config = {
     apiKey: "AIzaSyA_4ihp7BIWYqX3L8xEFbD5rMgiE7Y5VUw",
@@ -21,5 +22,7 @@ var config = {
 firebase.initializeApp(config);
 
 
-ReactDOM.render(<Home />, document.getElementById('root'));
+ReactDOM.render(
+    <Home />
+    , document.getElementById('root'));
 registerServiceWorker();
