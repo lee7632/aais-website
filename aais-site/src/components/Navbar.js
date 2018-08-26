@@ -14,7 +14,6 @@ class Navbar extends Component {
     }
 
     homeClicked(){
-        
         this.setState(prevState => ({
             home : "nav-item active",
             cal : "nav-item",
@@ -24,7 +23,6 @@ class Navbar extends Component {
     }
 
     calendarClicked(){
-        
         this.setState(prevState => ({
             home : "nav-item",
             cal : "nav-item active",
@@ -34,7 +32,6 @@ class Navbar extends Component {
     }
 
     aboutClicked(){
-        
         this.setState(prevState => ({
             home : "nav-item",
             cal : "nav-item",
@@ -44,7 +41,6 @@ class Navbar extends Component {
     }
 
     contactClicked(){
-        
         this.setState(prevState => ({
             home : "nav-item",
             cal : "nav-item",
