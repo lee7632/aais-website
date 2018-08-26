@@ -11,6 +11,7 @@ This webpage was built with react and bootstrap and will be hosted with firebase
 * npm package manager
 * react
 * react command line
+* react-router
 * jquery 3.3.1
 * Popper.js
 * Bootstrap 4
