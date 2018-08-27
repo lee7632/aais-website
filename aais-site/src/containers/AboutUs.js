@@ -19,16 +19,22 @@ class AboutUs extends Component {
                 Natural Language Processing, Computer Vision, and Self Driving Cars.
                 </p>
             </div>
+            <h1 className="Officers-title">Our Leadership</h1>
             <div className="Officers">
-                <h1 className="Officers-title">Our Leadership</h1>
-                <div className="President">
-                    <img src={President} alt={"President"}></img>
+                <div className="Officer">
+                    <img src={President} alt={"President"} className="President-photo"></img>
+                    <h2 className="Name">Brian George</h2>
+                    <h3 className="Title">President</h3>
                 </div>
-                <div className="VP">
+                <div className="Officer">
                     <img src={VP} alt={"VP"}></img>
+                    <h2 className="Name">Ryan Wells</h2>
+                    <h3 className="Title">Vice President</h3>
                 </div>
-                <div className="Treasurer">
+                <div className="Officer">
                     <img src={Treasurer} alt={"Treasurer"}></img>
+                    <h2 className="Name">Yamen Al Masalmeh</h2>
+                    <h3 className="Title">Treasurer</h3>
                 </div>
             </div>
         </div>
