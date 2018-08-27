@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+.Intro{
+    max-height: 500px;
+    min-height: 300px;
+    background-color: crimson;
+}
+.Intro-welcome{
+    font-family: 'Sofia', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.Intro-mission{
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+}
+
+.Intro-whatwedo{
+    text-align: center;
+    margin: auto;
+    max-width: 50em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+}
+
+.Officers{
+    min-height: 500px;
+}
+
+.Officers-title{
+    font-family: 'Sofia', cursive;
+    font-size: 50px;
+    text-align: center;
+}
