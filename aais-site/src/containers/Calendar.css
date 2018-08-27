@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
 .Calendar-welcome{
     text-align: center;
     padding: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-family: 'Sofia', cursive;
+    font-size: 40px;
 }
