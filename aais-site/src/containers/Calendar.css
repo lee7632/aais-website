@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+.Calendar-welcome{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.Calendar{
+    justify-content: center;
+}

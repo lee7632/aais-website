@@ -15,3 +15,5 @@ This webpage was built with react and bootstrap and will be hosted with firebase
 * jquery 3.3.1
 * Popper.js
 * Bootstrap 4
+* React Big Calendar
+* Moment.js
