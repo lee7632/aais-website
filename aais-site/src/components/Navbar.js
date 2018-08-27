@@ -6,71 +6,52 @@ class Navbar extends Component {
 
     constructor(props){
         super(props);
-        this.state = { home: "nav-item active", cal: "nav-item", about: "nav-item", contact: "nav-item" }
-        this.homeClicked = this.homeClicked.bind(this);
-        this.calendarClicked = this.calendarClicked.bind(this);
-        this.aboutClicked = this.aboutClicked.bind(this);
-        this.contactClicked = this.contactClicked.bind(this);
+        this.activeVal = "Home";
+        this.navDark = false;
+        this.handleClick = this.handleClick.bind(this);
     }
 
-    homeClicked(){
-        this.setState(prevState => ({
-            home : "nav-item active",
-            cal : "nav-item",
-            about : "nav-item",
-            contact : "nav-item"
-        }));
-    }
-
-    calendarClicked(){
-        this.setState(prevState => ({
-            home : "nav-item",
-            cal : "nav-item active",
-            about : "nav-item",
-            contact : "nav-item"
-        }));
-    }
-
-    aboutClicked(){
-        this.setState(prevState => ({
-            home : "nav-item",
-            cal : "nav-item",
-            about : "nav-item active",
-            contact : "nav-item"
-        }));
-    }
-
-    contactClicked(){
-        this.setState(prevState => ({
-            home : "nav-item",
-            cal : "nav-item",
-            about : "nav-item",
-            contact : "nav-item active"
-        }));
+    handleClick(actVal){
+        this.activeVal = actVal;
+        if (actVal === "Home"){
+            this.navDark = false;
+        }
+        else{
+            this.navDark = true;
+        }
     }
 
     render() {
+        
+    //set navbar link style
+    const active = "nav-item active";
+    const notActive = "nav-item";
+
+    //toggle navbar style
+    const navDark = "navbar navbar-expand-lg navbar-dark bg-dark";
+    const navTransparent = "navbar navbar-expand-lg navbar-dark";
+
       return (
         <div className="Navbar">
-            <nav className="navbar navbar-expand-lg navbar-dark">
-                <Link className={"navbar-brand"} to='/' onClick={this.homeClicked}>Aggie AI Society</Link>
+            <nav className={(this.navDark === true)? navDark : navTransparent}>
+                <Link className={"navbar-brand"} to='/' onClick={()=>this.handleClick("Home")}>Aggie AI Society</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon">
                     </span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav ml-auto">
-                        <li className={this.state.home}>
-                            <Link className={"nav-link"} to='/' onClick={this.homeClicked}>Home</Link>
+                        <li className={(this.activeVal === "Home")? active : notActive}>
+                            <Link className={"nav-link"} to='/' onClick={()=>this.handleClick("Home")}>Home</Link>
                         </li>
-                        <li className={this.state.cal}>
-                            <Link className={"nav-link"} to='/calendar' onClick={this.calendarClicked}>Calendar</Link>
+                        <li className={(this.activeVal === "Cal")? active : notActive}>
+                            <Link className={"nav-link"} to='/calendar' onClick={()=>this.handleClick("Cal")}>Calendar</Link>
                         </li>
-                        <li className={this.state.about}>
-                            <Link className={"nav-link"} to='/about' onClick={this.aboutClicked}>About Us</Link>
+                        <li className={(this.activeVal === "About")? active : notActive}>
+                            <Link className={"nav-link"} to='/about' onClick={()=>this.handleClick("About")}>About Us</Link>
                         </li>
-                        <li className={this.state.contact}>
-                            <Link className={"nav-link"} to='/contact' onClick={this.contactClicked}>Contact Us</Link>
+                        <li className={(this.activeVal === "Contact")? active : notActive}>
+                            <Link className={"nav-link"} to='/contact' onClick={()=>this.handleClick("Contact")}>Contact Us</Link>
                         </li>
                     </ul>
                 </div>
