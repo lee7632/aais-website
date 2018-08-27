@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './AboutUs.css';
+import President from '../images/President.jpeg';
+import VP from '../images/VP.jpeg';
+import Treasurer from '../images/Treasurer.jpeg';
+
 class AboutUs extends Component {
     render() {
       return (
@@ -17,6 +21,15 @@ class AboutUs extends Component {
             </div>
             <div className="Officers">
                 <h1 className="Officers-title">Our Leadership</h1>
+                <div className="President">
+                    <img src={President} alt={"President"}></img>
+                </div>
+                <div className="VP">
+                    <img src={VP} alt={"VP"}></img>
+                </div>
+                <div className="Treasurer">
+                    <img src={Treasurer} alt={"Treasurer"}></img>
+                </div>
             </div>
         </div>
       );

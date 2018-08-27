@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 .Calendar-welcome{
     text-align: center;
     padding: 10px;
-    font-family: 'Sofia', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 40px;
 }
