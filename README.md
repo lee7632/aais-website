@@ -1,7 +1,7 @@
 # AAIS Website
 Webpage code for Aggie Artificial Intelligence Society
 
-This webpage was built with react and bootstrap and will be hosted with firebase.
+This webpage was built with react and will be hosted with firebase.
 
 ## Sources
 [Navbar](https://codepen.io/coder2000/pen/ayPBZY?editors=1010)
@@ -17,3 +17,7 @@ This webpage was built with react and bootstrap and will be hosted with firebase
 * Bootstrap 4
 * React Big Calendar
 * Moment.js
+
+# Authors
+
+* Austin Gonzalez

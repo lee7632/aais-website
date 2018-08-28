@@ -1,8 +1,82 @@
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 
-.ContactUs-welcome{
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 50px;
+.Social-title{
     text-align: center;
     padding: 10px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 36px;
 }
+
+.Social{
+    display: flex;
+    justify-content: center;
+}
+.Social-icon{
+    position: relative;
+    display: block;
+    float: left;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.Social-handle{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.Contact-title{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.Contact{
+    background-color: #2980B9;
+}
+
+.Resources{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Resource{
+    position: relative;
+    display: block;
+    float: left;
+    padding: 30px;
+    margin: 0 5px;
+}
+
+.Resource-hdr{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+}
+
+.Resource-ftr{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+}
+
+@media screen and (max-width: 640px) {
+    .Contact{
+        min-height: 670px;
+    }
+    .Resources{
+        display: block;
+    }
+    .Resource{
+        float: none;
+        padding: 10px;
+        margin: auto;
+    }
+}
+
+
