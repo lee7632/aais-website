@@ -31,12 +31,6 @@
 }
 
 
-.Officers{
-    display: flex;
-    justify-content: center;
-}
-
-
 .Officers-title{
     padding: 10px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -50,4 +44,28 @@
     float: left;
     padding: 10px;
     margin: 0 5px;
+}
+
+@media screen and (min-width: 992px) {
+    .Officers{
+        display: flex;
+        justify-content: center;
+    }
+    .Officer{
+        position: relative;
+        display: block;
+        float: left;
+        padding: 10px;
+        margin: 0 5px;
+    }
+}
+
+.Name {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 30px;
+}
+
+.Title {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 24px;
 }
