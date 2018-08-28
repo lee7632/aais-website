@@ -20,19 +20,20 @@ class ContactUs extends Component {
                         <h5 className="Resource-ftr">aais@tamu.edu</h5>
                     </div>
                     <div className="Resource">
-                        <h4 className="Resource-hdr">slack</h4>
-                        <a href="https://aggieaisociety.slack.com/signup" target="_blank" rel="noopener noreferrer">
-                            <img src={slack} alt="slack"></img>
-                        </a>
-                        <h5 className="Resource-ftr">aggieaisociety.slack.com</h5>
-                    </div>
-                    <div className="Resource">
                         <h4 className="Resource-hdr">github</h4>
                         <a href="https://github.com/aggieaisociety" target="_blank" rel="noopener noreferrer">
                             <img src={github} alt="Github"></img>
                         </a>
                         <h5 className="Resource-ftr">github.com/aggieaisociety</h5>
                     </div>
+                    <div className="Resource">
+                        <h4 className="Resource-hdr">slack</h4>
+                        <a href="https://aggieaisociety.slack.com/signup" target="_blank" rel="noopener noreferrer">
+                            <img src={slack} alt="slack"></img>
+                        </a>
+                        <h5 className="Resource-ftr">aggieaisociety.slack.com</h5>
+                    </div>
+                    
                 </div>
             </div>
             <h2 className="Social-title">Follow us on Instagram and Twitter</h2>
