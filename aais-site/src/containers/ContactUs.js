@@ -10,7 +10,7 @@ class ContactUs extends Component {
       return (
         <div className="ContactUs">
             <div className="Contact">
-                <h2 className="Contact-title"> Join Us Today</h2>
+                <h2 className="Contact-title">Join Us Today</h2>
                 <div className="Resources">
                     <div className="Resource">
                         <h4 className="Resource-hdr">email</h4>
