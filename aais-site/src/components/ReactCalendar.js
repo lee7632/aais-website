@@ -11,7 +11,50 @@ const aaisEvents = [
       startDate: new Date('September 02, 2018 13:00:00'),
       endDate: new Date('September 02, 2018 17:00:00'),
       title: 'MSC Open House',
+    },
+    {
+        allDay: false,
+        startDate: new Date('September 07, 2018 17:00:00'),
+        endDate: new Date('September 07, 2018 18:00:00'),
+        title: 'Intro Meeting',
+    },
+    {
+        allDay: false,
+        startDate: new Date('September 20, 2018 18:00:00'),
+        endDate: new Date('September 20, 2018 19:00:00'),
+        title: 'PwC Talk',
+    },
+    {
+        allDay: false,
+        startDate: new Date('October 05, 2018 17:00:00'),
+        endDate: new Date('October 05, 2018 18:00:00'),
+        title: 'AAIS Meeting',
+    },
+    {
+        allDay: false,
+        startDate: new Date('October 19, 2018 17:00:00'),
+        endDate: new Date('October 19, 2018 18:00:00'),
+        title: 'AAIS Meeting',
+    },
+    {
+        allDay: false,
+        startDate: new Date('November 02, 2018 17:00:00'),
+        endDate: new Date('November 02, 2018 18:00:00'),
+        title: 'AAIS Meeting',
+    },
+    {
+        allDay: false,
+        startDate: new Date('November 16, 2018 17:00:00'),
+        endDate: new Date('November 16, 2018 18:00:00'),
+        title: 'AAIS Meeting',
+    },
+    {
+        allDay: false,
+        startDate: new Date('November 30, 2018 17:00:00'),
+        endDate: new Date('November 30, 2018 18:00:00'),
+        title: 'AAIS Meeting',
     }
+
   ];
 const MyCalendar = props => (
     <div className="rbc-calendar">
