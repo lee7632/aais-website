@@ -36,21 +36,24 @@ class ContactUs extends Component {
                     
                 </div>
             </div>
-            <h2 className="Social-title">Follow us on Instagram and Twitter</h2>
-            <div className="Social">
-                <div className="Social-icon">
-                    <a href="https://www.instagram.com/aggieaisociety/" target="_blank" rel="noopener noreferrer">
-                        <img src={instagram} alt="Instagram"></img>
-                    </a>
-                    <h5 className="Social-handle">@aggieaisociety</h5>
+            
+            <div className="Media">
+                <h2 className="Social-title">Follow us on Instagram and Twitter</h2>
+                <div className="Social">
+                    <div className="Social-icon">
+                        <a href="https://www.instagram.com/aggieaisociety/" target="_blank" rel="noopener noreferrer">
+                            <img src={instagram} alt="Instagram"></img>
+                        </a>
+                        <h5 className="Social-handle">@aggieaisociety</h5>
+                    </div>
+                    <div className="Social-icon">
+                        <a href="https://twitter.com/aggieaisociety" target="_blank" rel="noopener noreferrer">
+                            <img src={twitter} alt="Twitter"></img>
+                        </a>
+                        <h5 className="Social-handle">@aggieaisociety</h5>
+                    </div>
                 </div>
-                <div className="Social-icon">
-                    <a href="https://twitter.com/aggieaisociety" target="_blank" rel="noopener noreferrer">
-                        <img src={twitter} alt="Twitter"></img>
-                    </a>
-                    <h5 className="Social-handle">@aggieaisociety</h5>
-                </div>
-            </div>
+            </div> 
         </div>
       );
     }

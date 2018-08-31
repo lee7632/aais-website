@@ -42,9 +42,29 @@ body {
 /* Set welcome font*/
 .Home-welcome {
     padding-top: 200px;
+    padding-bottom: 200px;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     font-weight: 100;
     text-align: center;
+}
+
+.Home-signature{
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.Home-signature:hover{
+    color: #d3d3d3;
+}
+
+a:hover{
+    text-decoration: none;
 }

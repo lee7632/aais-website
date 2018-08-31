@@ -10,6 +10,7 @@
 .Social{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .Social-icon{
     position: relative;
@@ -17,6 +18,8 @@
     float: left;
     padding: 5px;
     margin: 0 5px;
+    width: 250px;
+    height: 250px;
 }
 
 .Social-handle{
@@ -49,6 +52,8 @@
     float: left;
     padding: 30px;
     margin: 0 5px;
+    width: 250px;
+    height: 250px;
 }
 
 .Resource-hdr{
@@ -60,7 +65,7 @@
 
 .Resource-ftr{
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     padding: 5px;
 }
@@ -76,6 +81,33 @@
         float: none;
         padding: 10px;
         margin: auto;
+    }
+
+    .Media{
+        min-height: 360px;
+    }
+
+    .Social{
+        display: block;
+    }
+
+    .Social-icon{
+        float: none;
+        padding: 10px;
+        margin: auto;
+    }
+}
+
+/* Expand icon divs to 300x300 for larger desktop widths */
+@media screen and (min-width: 1024px) {
+    .Resource{
+        position: relative;
+        display: block;
+        float: left;
+        padding: 10px;
+        margin: 0 5px;
+        width: 300px;
+        height: 300px;
     }
 }
 
