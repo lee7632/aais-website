@@ -26,6 +26,12 @@ const aaisEvents = [
     },
     {
         allDay: false,
+        startDate: new Date('September 28, 2018 17:00:00'),
+        endDate: new Date('September 28, 2018 18:00:00'),
+        title: 'Accenture Talk HRBB 113',
+    },
+    {
+        allDay: false,
         startDate: new Date('October 05, 2018 17:00:00'),
         endDate: new Date('October 05, 2018 18:00:00'),
         title: 'Meeting HRBB 113',
