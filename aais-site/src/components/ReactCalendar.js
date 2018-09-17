@@ -32,12 +32,6 @@ const aaisEvents = [
     },
     {
         allDay: false,
-        startDate: new Date('October 05, 2018 17:00:00'),
-        endDate: new Date('October 05, 2018 18:00:00'),
-        title: 'Meeting HRBB 113',
-    },
-    {
-        allDay: false,
         startDate: new Date('October 19, 2018 17:00:00'),
         endDate: new Date('October 19, 2018 18:00:00'),
         title: 'Voice Recognition Workshop',
