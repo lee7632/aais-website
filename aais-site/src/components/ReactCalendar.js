@@ -28,7 +28,7 @@ const aaisEvents = [
         allDay: false,
         startDate: new Date('September 28, 2018 17:00:00'),
         endDate: new Date('September 28, 2018 18:00:00'),
-        title: 'Accenture Talk HRBB 113',
+        title: 'Meeting Cancelled',
     },
     {
         allDay: false,
