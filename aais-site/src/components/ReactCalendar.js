@@ -40,7 +40,7 @@ const aaisEvents = [
         allDay: false,
         startDate: new Date('November 02, 2018 17:00:00'),
         endDate: new Date('November 02, 2018 18:00:00'),
-        title: 'Meeting HRBB 113',
+        title: 'AlphaZero Presentation',
     },
     {
         allDay: false,
