@@ -46,7 +46,7 @@ const aaisEvents = [
         allDay: false,
         startDate: new Date('November 16, 2018 17:00:00'),
         endDate: new Date('November 16, 2018 18:00:00'),
-        title: 'Movie Night (A.I. Artificial Intelligence directed by Stephen Spielberg)',
+        title: 'Movie Night',
     },
     {
         allDay: false,
