@@ -53,6 +53,42 @@ const aaisEvents = [
         startDate: new Date('November 30, 2018 17:00:00'),
         endDate: new Date('November 30, 2018 18:00:00'),
         title: 'Comp Vision Pres.',
+    },
+    {
+      allDay: false,
+      startDate: new Date('February 08, 2019 17:00:00'),
+      endDate: new Date('February 08, 2019 18:00:00'),
+      title: 'TBD',
+    },
+    {
+        allDay: false,
+        startDate: new Date('February 22, 2019 17:00:00'),
+        endDate: new Date('February 22, 2019 18:00:00'),
+        title: 'TBD',
+    },
+    {
+        allDay: false,
+        startDate: new Date('March 22, 2019 17:00:00'),
+        endDate: new Date('March 22, 2019 18:00:00'),
+        title: 'TensorFlow Workshop',
+    },
+    {
+        allDay: false,
+        startDate: new Date('March 22, 2019 17:00:00'),
+        endDate: new Date('March 22, 2019 18:00:00'),
+        title: 'TensorFlow Workshop',
+    },
+    {
+        allDay: false,
+        startDate: new Date('April 12, 2019 17:00:00'),
+        endDate: new Date('April 12, 2019 18:00:00'),
+        title: 'Guest Speaker: Dr. Hu',
+    },
+     {
+        allDay: false,
+        startDate: new Date('April 26, 2019 17:00:00'),
+        endDate: new Date('April 26, 2019 18:00:00'),
+        title: 'Guest Speakers: Yamen and Ryan',
     }
 
   ];
